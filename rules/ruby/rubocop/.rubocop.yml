@@ -1,0 +1,15 @@
+AllCops:
+  DisplayCopNames: true
+  TargetRubyVersion: 2.5
+  Exclude:
+    - 'test/**/test_*.rb'
+
+Style/HashEachMethods:
+  Enabled: true
+Style/HashTransformKeys:
+  Enabled: true
+Style/HashTransformValues:
+  Enabled: true
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
