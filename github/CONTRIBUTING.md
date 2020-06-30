@@ -1,6 +1,8 @@
-# Contributing
+# Contributing to [PROJECT_NAME]
 
-When contributing to this repository, please first discuss the change you wish to make via issue,
-email, or any other method with the owners of this repository before making a change. 
+We would like for you to contribute to [PROJECT_NAME] and make it even better than it is today! As a contributor, you must read this guidelines:
 
-Please note we have a code of conduct, please follow it in all your interactions with the project.
+* [Code of Conduct]()
+* [Repository rules]()
+* [Commit Convention]()
+* ...
