@@ -1,8 +1,6 @@
-Commit Convention
-=======================
+# Commit Convention
 
-How to work with a project
--------------------
+## How to work with a project
 
 __New update__
 
@@ -13,13 +11,12 @@ __New update__
 5. merge your branch with `master`;
 6. delete your branch.
 
-**Notes**
+__Notes__
 
 1. always delete development branches;
 2. always push only last commit to `master`.
 
-Merge all dev branches in master
--------------------
+## Merge all dev branches in master
 
 __IDEA__
 
@@ -30,31 +27,50 @@ __IDEA__
 5. check `Squash commit`;
 6. click on `Merge`.
 
-Branches
--------------------
+## Branches
 
-**In projects using next types of branches:**
+__In projects using next types of branches:__
 
 * `master` - master branch. Contains a production version of the project. Don't push working changes to `master`!
 * `feature` - branch for a feature. Use for updates or fixes which are in developing.
 
-Commit message
--------------------
+## Commit message
 
-**Recommended commit message head length:** `50` symbols.
+__Recommended commit message head length:__ `50` symbols.
 
-Commit message structure
--------------------
+## Commit message structure
 
-**Template**
+__Template__
 
 ```
-[DATE] [VERSION] [TYPE]: [HEAD MESSAGE]
+[DATE] ([VERSION] or [TYPE]): [HEAD MESSAGE]
 
-[BODY MESSAGE]
+1. Added:
+- first addition;
+- ...
+
+2. Closed:
+- first issue;
+- ...
+
+3. Fixed:
+- first fix;
+- ...
+
+4. Updated:
+- first update;
+- ...
+
+5. Deleted:
+- first deletion;
+- ...
+
+6. Refactored:
+- first refactor position;
+- ...
 ```
 
-**Example**
+__Example__
 
 ```
 2019-05-12 Version 2.1.3: Fixed bugs in History
@@ -73,7 +89,7 @@ Commit message structure
 - unused strings.
 ```
 
-**Order**
+__Order__
 
 1. `Date` - always write a date. It is necessary for the convenience of finding a specific commit;
 2. `Version` - needed to monitoring major chenges in commit;
