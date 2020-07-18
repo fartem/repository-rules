@@ -95,6 +95,8 @@ __Order__
 2. `Version` - needed to monitoring major chenges in commit;
 3. `Short description` - briefly describe what was done in the commit (fit it in two lines, it is convenient when looking for changes in the repository);
 4. `Added` - what was added in the commit;
-5. `Fixed` - what was fixed in the commit;
-6. `Updated` - what was updated in the commit;
-7. `Deleted` - what was deleted in the commit.
+5. `Closed` - what issues closed in the commit;
+6. `Fixed` - what was fixed in the commit;
+7. `Updated` - what was updated in the commit;
+8. `Deleted` - what was deleted in the commit;
+9. `Refactored` - what was refactored in the commit.
