@@ -26,4 +26,3 @@ Checkstyle, detekt, CodeNarc and Rubocop rules, Commit Convention and .gitignore
 ## Repositories
 
 * [GitHub](./github)
-
