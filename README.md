@@ -23,7 +23,7 @@ Checkstyle, detekt, CodeNarc and Rubocop rules, Commit Convention and .gitignore
 * [Python](./gitignore/python/.gitignore)
 * [Ruby](./gitignore/ruby/.gitignore)
 
-## Places
+## Repositories
 
 * [GitHub](./github)
 
