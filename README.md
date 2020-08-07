@@ -1,6 +1,6 @@
 # Repository rules
 
-Checkstyle, detekt, CodeNarc and Rubocop rules, Commit Convention and .gitignore files, GitHub rules.
+Checkstyle, detekt, CodeNarc, and Rubocop rules, Commit Convention, .gitignore templates and GitHub rules.
 
 ## Rules
 
