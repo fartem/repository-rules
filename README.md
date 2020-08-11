@@ -1,5 +1,7 @@
 # Repository rules
 
+## About
+
 Checkstyle, detekt, CodeNarc, and Rubocop rules, Commit Convention, .gitignore templates and GitHub rules.
 
 ## Rules
