@@ -18,9 +18,11 @@ Checkstyle, detekt, CodeNarc, and Rubocop rules, Commit Convention, .gitignore t
 ## .gitignore files
 
 * [Android](./gitignore/android/.gitignore)
+* [.NET](./gitignore/dotnet/.gitignore)
 * [Flutter](./gitignore/flutter/.gitignore)
 * [Groovy](./gitignore/groovy/.gitignore)
 * [HTML](./gitignore/html/.gitignore)
+* [Java](./gitignore/java/.gitignore)
 * [NodeJS](./gitignore/nodejs/.gitignore)
 * [Python](./gitignore/python/.gitignore)
 * [Ruby](./gitignore/ruby/.gitignore)
