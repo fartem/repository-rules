@@ -22,6 +22,7 @@ Checkstyle, detekt, CodeNarc, and Rubocop rules, Commit Convention, .gitignore t
 * [Flutter](./gitignore/flutter/.gitignore)
 * [Groovy](./gitignore/groovy/.gitignore)
 * [HTML](./gitignore/html/.gitignore)
+* [Java](./gitignore/java/.gitignore)
 * [Kotlin](./gitignore/kotlin/.gitignore)
 * [NodeJS](./gitignore/nodejs/.gitignore)
 * [Python](./gitignore/python/.gitignore)
