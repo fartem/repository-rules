@@ -2,9 +2,11 @@
 
 ## How to work with a project
 
+### As repository maintainer
+
 __New update__
 
-1. pull or copy the project files from the repository to a workspace;
+1. copy the project files from the repository to a workspace;
 2. create a new branch for an update;
 3. complete the update;
 4. perform a Code Review;
@@ -14,7 +16,15 @@ __New update__
 __Notes__
 
 1. always delete development branches;
-2. always push only last commit to `master`.
+2. always push squashed commit to `master`.
+
+### As contributor
+
+1. copy the project files from the repository to a workspace;
+2. create a new branch for an update;
+3. complete the update;
+4. perform a Code Review;
+5. create a Pull Request to original repository.
 
 ## Merge all dev branches in master
 
@@ -32,18 +42,18 @@ __IDEA__
 __In projects using next types of branches:__
 
 * `master` - master branch. Contains a production version of the project. Don't push working changes to `master`!
-* `feature` - branch for a feature. Use for updates or fixes which are in developing.
+* `feature/version` - branch for a feature. Use for updates or fixes which are in developing. Can be named as project version.
 
 ## Commit message
 
-__Recommended commit message head length:__ `50` symbols.
+__Recommended head of commit length:__ `50` symbols.
 
 ## Commit message structure
 
 __Template__
 
 ```
-[DATE] ([VERSION] or [TYPE]): [HEAD MESSAGE]
+[DATE] ([VERSION] or [TYPE]): [HEAD OF MESSAGE]
 
 1. Added:
 - first addition;
@@ -73,13 +83,13 @@ __Template__
 __Example__
 
 ```
-2019-05-12 Version 2.1.3: Fixed bugs in History
+2019-05-12 Version 2.1.3: Fixed bugs in History screen
 
 1. Added:
-- invites in ShareFragment.
+- AdaptiveRecyclerView library support.
 
 2. Fixed:
-- item name in History;
+- items naming in History;
 - portion loading in History.
 
 3. Updated:
@@ -89,14 +99,11 @@ __Example__
 - unused strings.
 ```
 
-__Order__
+__Commit body sections order__
 
-1. `Date` - always write a date. It is necessary for the convenience of finding a specific commit;
-2. `Version` - needed to monitoring major chenges in commit;
-3. `Short description` - briefly describe what was done in the commit (fit it in two lines, it is convenient when looking for changes in the repository);
-4. `Added` - what was added in the commit;
-5. `Closed` - what issues closed in the commit;
-6. `Fixed` - what was fixed in the commit;
-7. `Updated` - what was updated in the commit;
-8. `Deleted` - what was deleted in the commit;
-9. `Refactored` - what was refactored in the commit.
+1. `Added` - what was added in the commit;
+2. `Closed` - what issues closed in the commit;
+3. `Fixed` - what was fixed in the commit;
+4. `Updated` - what was updated in the commit;
+5. `Deleted` - what was deleted in the commit;
+6. `Refactored` - what was refactored in the commit.
