@@ -2,12 +2,13 @@
 
 ## About
 
-Checkstyle, detekt, CodeNarc, and Rubocop rules, Commit Convention, .gitignore templates and GitHub rules.
+Checkstyle, detekt, Dart Analyzer, CodeNarc, and Rubocop rules, Commit Convention, .gitignore templates and GitHub rules.
 
 ## Rules
 
 * [Checkstyle](./rules/java/checkstyle/checkstyle.xml)
 * [detekt](./rules/kotlin/detekt/detekt.yml)
+* [Dart Analyzer](./rules/flutter/dart_analyzer/analysis_options.yaml)
 * [CodeNarc](./rules/groovy/codenarc/codenarc.groovy)
 * [RuboCop](./rules/ruby/rubocop/.rubocop.yml)
 
