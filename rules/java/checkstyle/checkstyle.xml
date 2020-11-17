@@ -12,7 +12,10 @@
         <property name="ignorePattern" value="^package.*|^import.*"/>
     </module>
 
+    <module name="NewlineAtEndOfFile"/>
+    <module name="SuppressWarningsFilter" />
     <module name="TreeWalker">
+        <module name="SuppressWarningsHolder" />
         <module name="IllegalTokenText">
             <property name="tokens" value="STRING_LITERAL, CHAR_LITERAL"/>
             <property name="format"
