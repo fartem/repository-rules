@@ -1,6 +1,6 @@
 AllCops:
   DisplayCopNames: true
-  TargetRubyVersion: 2.5
+  TargetRubyVersion: 2.7
   Exclude:
     - 'test/**/test_*.rb'
 
@@ -22,6 +22,8 @@ Style/SwapValues:
   Enabled: true
 Style/FrozenStringLiteralComment:
   Enabled: false
+Style/NilLambda:
+  Enabled: true
 
 Lint/DuplicateRegexpCharacterClassElement:
   Enabled: true
@@ -32,4 +34,8 @@ Lint/NoReturnInBeginEndBlocks:
 Lint/ToEnumArguments:
   Enabled: true
 Lint/UnmodifiedReduceAccumulator:
+  Enabled: true
+Lint/DuplicateBranch:
+  Enabled: true
+Lint/EmptyClass:
   Enabled: true
