@@ -20,6 +20,7 @@ Checkstyle, detekt, Dart Analyzer, CodeNarc, and Rubocop rules, Commit Conventio
 
 * [Android](./gitignore/android/.gitignore)
 * [.NET](./gitignore/dotnet/.gitignore)
+* [Dart](./gitignore/dart/.gitignore)
 * [Flutter](./gitignore/flutter/.gitignore)
 * [Groovy](./gitignore/groovy/.gitignore)
 * [HTML](./gitignore/html/.gitignore)
