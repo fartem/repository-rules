@@ -6,7 +6,9 @@ Checkstyle, detekt, Dart Analyzer, CodeNarc, and Rubocop rules, Commit Conventio
 
 ## Rules
 
-* [Checkstyle](./rules/java/checkstyle/checkstyle.xml)
+* [Checkstyle (without custom checks)](./rules/java/checkstyle/checkstyle.xml)
+* [Checkstyle Custom (with Java custom checks)](./rules/java/checkstyle/checkstyle-custom/checkstyle.xml)
+* [Checkstyle Android (with Java + Android custom checks)](./rules/java/checkstyle/android/checkstyle.xml)
 * [detekt](./rules/kotlin/detekt/detekt.yml)
 * [Dart Analyzer](./rules/flutter/dart_analyzer/analysis_options.yaml)
 * [CodeNarc](./rules/groovy/codenarc/codenarc.groovy)
