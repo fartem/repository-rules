@@ -2,11 +2,11 @@
 
 ## How to work with a project
 
-### As repository maintainer
+### As a repository maintainer
 
 __New update__
 
-1. copy the project files from the repository to a workspace;
+1. clone a project from a repository to local workspace;
 2. create a new branch for an update;
 3. complete the update;
 4. perform a Code Review;
@@ -18,13 +18,13 @@ __Notes__
 1. always delete development branches;
 2. always push squashed commit to `master`.
 
-### As contributor
+### As a contributor
 
-1. copy the project files from the repository to a workspace;
+1. clone a project from a repository to local workspace;
 2. create a new branch for an update;
 3. complete the update;
 4. perform a Code Review;
-5. create a Pull Request to original repository.
+5. create a Pull Request to the original repository.
 
 ## Merge all dev branches in master
 
@@ -46,7 +46,7 @@ __In projects using next types of branches:__
 
 ## Commit message
 
-__Recommended head of commit length:__ `50` symbols.
+__Recommended commit head message length:__ `50` symbols.
 
 ## Commit message structure
 
