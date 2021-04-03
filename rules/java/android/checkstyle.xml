@@ -17,7 +17,7 @@
         <module name="com.smlnskgmail.jaman.checkstyle.checks.AndroidViewFieldNameCheck">
             <property name="id" value="AndroidViewFieldNameCheck" />
         </module>
-        <module name="com.smlnskgmail.jaman.checkstyle.checks.ContextFirstParameterCheck">
+        <module name="com.smlnskgmail.jaman.checkstyle.checks.ContextAsFirstParameterCheck">
             <property name="id" value="ContextFirstParameterCheck" />
         </module>
         <module name="com.smlnskgmail.jaman.checkstyle.checks.MethodObjectReturnAnnotationCheck">
