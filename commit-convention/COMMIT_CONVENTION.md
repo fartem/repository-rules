@@ -83,7 +83,7 @@ __Template__
 __Example__
 
 ```
-2019-05-12 Version 2.1.3: Fixed bugs in History screen
+2019-05-12 v. 2.1.3: fixed bugs in History screen
 
 1. Added:
 - AdaptiveRecyclerView library support.
