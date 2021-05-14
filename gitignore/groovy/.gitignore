@@ -6,3 +6,6 @@ build
 
 # CodeNarc
 codenarc-rules.groovy
+
+# IDEA
+.idea
